@@ -27,9 +27,7 @@
 
 7. Ya podemos comprobar que no aparecen actualizaciones.
 
-::: warning
-*Conclusión: Django instalado en nuestro entorno de desarrollo.*
-:::
+> Conclusión: Django instalado en nuestro entorno de desarrollo.
 
 ### CAP 2: Django templating
 
@@ -79,9 +77,7 @@
 12. Ahora creo mi archivo HTML en la carpeta que especifique. Coloco algo de HTML para ver que es mi pagina.
 
 
-::: warning
-*Conclusión: Se tiene en "templates/pages" las paginas de cada seccion de forma convencional SIN jerarquia de templates.*
-:::
+> Conclusión: Se tiene en "templates/pages" las paginas de cada seccion de forma convencional SIN jerarquia de templates.*
 
 #### CAP3: AHORA, JERARQUIA DE TEMPLATES:
 
