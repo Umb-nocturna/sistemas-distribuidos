@@ -1,5 +1,7 @@
 {% extends "layouts/base.html" %}
 
+{% load static %}
+
 {% block title %}Proyectos{% endblock %}
 
 {% block content %}
@@ -21,10 +23,11 @@
                             <div class="card-body p-0">
                                 <div class="d-flex align-items-center">
                                     <div class="p-5">
+                                        <p>{{p.date}}</p>
                                         <h2 class="fw-bolder">{{p.nombre}}</h2>
                                         <p>{{p.descripcion}}</p>
                                     </div>
-                                    <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." />
+                                    <img class="img-fluid" src="{{p.imageproj.url}}" alt="..." />
                                 </div>
                             </div>
                         </div>

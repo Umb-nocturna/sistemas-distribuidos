@@ -383,6 +383,7 @@ def proyectos(request):
     ``` 
     - Los campos deben tener la etiquea name=<name>
 
+s
 
 
 #### Resources.
